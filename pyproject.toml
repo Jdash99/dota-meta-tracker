@@ -1,0 +1,21 @@
+[project]
+name = "dota-tracker"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "polars>=2.1.0",
+    "requests>=2.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.17.2",
+]
+
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 120
