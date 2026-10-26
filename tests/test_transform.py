@@ -12,7 +12,7 @@ def find(df: pl.DataFrame, hero: str, bracket: str) -> dict:
 
 def test_one_row_per_hero_and_bracket():
     df = to_rows(SAMPLE, "2026-10-24")
-    assert df.height == 3 * 8
+    assert df.height == 3 * 9
 
 def test_win_rate_is_winds_over_picks():
     df = to_rows(SAMPLE, "2026-10-24")
