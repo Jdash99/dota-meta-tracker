@@ -12,7 +12,7 @@ CLEAN_PATH = Path("data/clean/hero_winrates.csv")
 REPORT_PATH = Path("report.md")
 MAX_JUMP = 0.15  # maximo cambio de win rate aceptado entre dos dias
 MIN_PICKS = 1000  # solo se compara si hay suficientes partidas
-MIN_HEROES = 100  # Dota tiene mas de 120 heroes; menos indica una respuesta incompleta
+MIN_HEROES = 1000  # Dota tiene mas de 120 heroes; menos indica una respuesta incompleta
 
 def run_checks(today: pl.DataFrame, raw_count: int, previous: pl.DataFrame) -> list:
     checks = []
