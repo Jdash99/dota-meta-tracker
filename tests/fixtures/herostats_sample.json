@@ -1,0 +1,5 @@
+[
+  {"id": 1, "localized_name": "Anti-Mage", "1_pick": 12600, "1_win": 6567, "2_pick": 20000, "2_win": 10100, "3_pick": 25000, "3_win": 12400, "4_pick": 26000, "4_win": 12900, "5_pick": 22000, "5_win": 10800, "6_pick": 15000, "6_win": 7300, "7_pick": 9000, "7_win": 4400, "8_pick": 0, "8_win": 0, "pro_pick": 15, "pro_win": 9},
+  {"id": 2, "localized_name": "Axe", "1_pick": 30000, "1_win": 16200, "2_pick": 35000, "2_win": 18500, "3_pick": 33000, "3_win": 17000, "4_pick": 29000, "4_win": 14800, "5_pick": 21000, "5_win": 10600, "6_pick": 12000, "6_win": 6000, "7_pick": 6000, "7_win": 2950, "8_pick": 2000, "8_win": 980, "pro_pick": 40, "pro_win": 22},
+  {"id": 14, "localized_name": "Pudge", "1_pick": 50000, "1_win": 25500, "2_pick": 60000, "2_win": 30300, "3_pick": 58000, "3_win": 29000, "4_pick": 50000, "4_win": 24800, "5_pick": 38000, "5_win": 18700, "6_pick": 22000, "6_win": 10800, "7_pick": 11000, "7_win": 5400, "8_pick": 3000, "8_win": 1450, "pro_pick": 60, "pro_win": 31}
+]
