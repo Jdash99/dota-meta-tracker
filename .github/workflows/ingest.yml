@@ -26,6 +26,16 @@ jobs:
       - name: Transform
         run: uv run python src/transform.py
 
+      - name: Validate
+        run: uv run python src/validate.py
+
+      - name: Uplod validation report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: validation-report
+          path: report.md
+
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"
